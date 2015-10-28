@@ -13,3 +13,4 @@ RUN yum install -y wget curl tar unzip \
     && echo 'export PATH=$GRADLE_HOME/bin:$PATH' >> /etc/profile
 
 ENV GRADLE_HOME /opt/gradle
+ENV PATH $GRADLE_HOME/bin:$PATH
