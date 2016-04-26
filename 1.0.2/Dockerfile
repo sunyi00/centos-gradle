@@ -1,4 +1,4 @@
-FROM sunyi00/centos-java:1.0.2
+FROM sunyi00/centos-java:1.0.1
 
 ENV DOWNLOAD_URL https://services.gradle.org/distributions/gradle-2.10-bin.zip
 
